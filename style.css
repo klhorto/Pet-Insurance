@@ -18,7 +18,6 @@
 
 #nav-bar {
   font-size: 20px;
-  
   position: fixed;
   top: 0;
   width: 100%;
@@ -47,7 +46,13 @@
 
 
 #submit {
-  
+  background-color: yellow;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+#submit:hover {
+  background-color: blue;
 }
 
 #video {
