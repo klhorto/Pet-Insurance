@@ -1,7 +1,7 @@
 #header {
   font-size: 40px;
   font-weight: bolder;
-  background-color: #f3f3f3;
+  background-color: #f4e1d2;
   position: fixed;
   top: 0;
   width: 100%;
@@ -35,10 +35,16 @@
   
 }
 
+body {
+  background-color: #fefbd8;
+  text-align: center
+}
+
 #form {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
+  
 }
 
 #email {
@@ -61,6 +67,7 @@
 #list {
   font-size: 25px;
   color: blue;
+  background-color: #fefbd8;
 }
 
 #video {
