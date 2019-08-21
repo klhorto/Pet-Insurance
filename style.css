@@ -68,6 +68,7 @@ body {
   font-size: 25px;
   color: black;
   background-color: #fefbd8;
+  list-style-position: inside;
 }
 
 #video {
