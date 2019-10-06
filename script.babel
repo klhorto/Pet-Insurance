@@ -1,8 +1,9 @@
-function emailValidation () {
-  var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+function emailValidation (inputText) {
+  var mailFormat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   var email = document.getElementById("email").value;
   
   if (inputText.value.match(mailFormat)){
+    alert("Success")
     return true
   }
   else {
