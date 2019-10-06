@@ -1,0 +1,12 @@
+function emailValidation () {
+  var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  var email = document.getElementById("email").value;
+  
+  if (inputText.value.match(mailFormat)){
+    return true
+  }
+  else {
+    alert("Invalid Email Address!");
+    return false
+  }
+}
